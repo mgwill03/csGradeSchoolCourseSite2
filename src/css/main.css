@@ -10,8 +10,10 @@
 
 html {
     color: #222;
+    background-color: #a8ece2;
     font-size: 1em;
     line-height: 1.4;
+
 }
 
 /*
@@ -92,6 +94,9 @@ textarea {
     left: 0;
     right: 0;
     width: 100%;
+    background: url("http://server.arcgis.com/en/portal/10.3/administer/windows/GUID-231F94DE-29B6-4DE5-AAA4-79E720B348D9-web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 div.container {
     width: 100%;
@@ -111,16 +116,26 @@ header, footer {
 ul {
    list-style-type: none;
    position: relative;
-   /*left: -30px;*/
+   left: -30px;
+   font-family: "Comic Sans MS", cursive, san-serif;
+    /*color: #0375b4;*/
+
+}
+
+li {
+    font-size: medium;
 }
 
 .accordion {
     /*cursor: pointer;*/
     transition: 0.4s;
+    /*text-decoration: underline;*/
+    font-size: large;
+    border: double;
 }
 
 div.panel {
-    display: none;
+    display: block;
 }
 
 
